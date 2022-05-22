@@ -1,0 +1,22 @@
+.nav{
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: rgb(172, 127, 255);
+}
+.nav>p{
+    color: white;
+    padding-bottom: 15px;
+}
+.body{
+   
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.delebut{
+    margin-left: 20px;
+}
+.strick{
+    text-decoration: line-through;
+}
