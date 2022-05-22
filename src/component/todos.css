@@ -9,14 +9,26 @@
     padding-bottom: 15px;
 }
 .body{
-   
-    width: 50%;
+    width: 90%;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 .delebut{
     margin-left: 20px;
 }
-.strick{
-    text-decoration: line-through;
+.add{
+    background: white;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.something{
+  height: 25px;
+ border-radius: 5px;
+ background-color: white;
+ width: 200px;
+
 }

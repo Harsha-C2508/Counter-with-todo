@@ -19,12 +19,12 @@ const Todo = () => {
         <p>List your todo items here , Make your day better with this habit</p>
      </div>
       <div className='body'>
-            <input value={newTodo} placeholder='Enter your todos Item' onChange={handleChange}/>
+            <input value={newTodo} placeholder='Write Something' onChange={handleChange} className='something'/>
              <button onClick={()=>{
                setTodos([...todos,{id:Date.now(),value: newTodo,}])
               setNewTodo("")
-              }}>
-              Add todos
+              }} className='add'>
+              +
               </button> 
              {todos.map((todo)=>(
              <TodoItem key={todo.id} todo={todo} onDelete={onDelete} />
