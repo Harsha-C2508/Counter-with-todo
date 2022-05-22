@@ -1,0 +1,9 @@
+.boxBor>button{
+    margin-left: 20px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    font-weight: bold;
+}
